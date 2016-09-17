@@ -61,7 +61,7 @@
   #footer .copyright { float: right; clear: right; text-align: right; }
   #footer .tagline { font-size: 1.5rem; position: absolute; left: 50%; margin: 0 -200px 0 0; top: -55px; padding: 0 24px; -webkit-transform: translateX(-50%); -moz-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); } }
 
-@media only screen and (min-width: 1025px) { #branding-bar { margin-bottom: 15px; /* account for trident */ position: relative; }
+@media only screen and (min-width: 1025px) { #branding-bar { margin-bottom: 15px; /* account for trident */ position: fixed; }
   #branding-bar:after { height: 0; }
   #branding-bar img { position: absolute; top: -5px; width: 65px; }
   #branding-bar h1, #branding-bar #iu-campus { line-height: 52px; padding-left: 80px; }
