@@ -9,6 +9,11 @@ html, body {
   height: 100%;
 }
 
+.welcome-text{
+  background: rgba( 255,255,255, 0.4);
+  padding:3%;
+}
+
 body {
   color: #333;
 }
@@ -85,7 +90,7 @@ a:hover, a:focus {
   text-decoration: none;
 }
 p { 
-  color: #aaa; 
+  color: #333; 
   font-size: 14px; 
 }
   
@@ -1128,6 +1133,7 @@ label {
     border-top: 1px solid #444;
     border-bottom: 1px solid #444;
     position: relative;
+    background: #333;
   }
   .section.gray { background-color: #f9f9f9; }
 
@@ -1292,14 +1298,15 @@ label {
         bottom: 0;
       }
 
-    #home h1 { 
+    #home h3 { 
       display: block;
-      padding-top: 15%;
+      padding-top: 20%;
       margin: 0;
       height: 75%;
       color: #333333; 
-      font-weight: bold;
-      font-size: 40px;
+      font-weight: medium;
+      line-height: 1.5;
+      /*font-size: 40px;*/
       -webkit-font-smoothing: antialiased;
     }
       #home h1 span {
@@ -1514,9 +1521,8 @@ label {
   }
     .thumbnail img {
       position: relative;
-      top: 50%;
+      top: 35%;
       margin-top: -15px;
-      height: 30px;
 
       -webkit-transition: .3s;
       transition: .3s;
@@ -2013,6 +2019,7 @@ label {
   }
     #team.dark .wrapper p {
       color: rgba(255,255,255,.5);
+      background: #333;
     }
 
   #team h3 { 
