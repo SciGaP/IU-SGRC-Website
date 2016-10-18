@@ -2221,4 +2221,11 @@ label {
   
 
     
-  
+  .cybergateway{
+    color:#fff; 
+    background: #990000; 
+    width: 100%; 
+    height:100%; 
+    padding: 25% 20%; 
+    text-align: center;
+  }
