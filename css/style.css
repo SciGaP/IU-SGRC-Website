@@ -1822,6 +1822,7 @@ label {
       -moz-opacity: 1;
       -khtml-opacity: 1;
       opacity: 1;     
+      padding:40px;
     }
     .overlay i, .overlay span.title { 
       color: #fff; 
@@ -2090,7 +2091,7 @@ label {
     }
 
     a.portrait-wrapper {
-      margin: 20px auto;
+      margin: 30px auto;
     }
   }
 
